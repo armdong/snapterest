@@ -29,7 +29,7 @@ class Application extends Component {
     const {
       addTweetToCollection,
       removeTweetFromCollection,
-      removeTweetFromCollection
+      removeAllTweetsFromCollection
     } = this
     const { collectionTweets } = this.state
 

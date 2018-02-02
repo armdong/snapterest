@@ -43,11 +43,9 @@ class Tweet extends Component {
 Tweet.propTypes = {
   tweet: (properties, propertyName, componentName) => {
     const tweet = properties[propertyName]
-
     if (!tweet) {
       return new Error('Tweet must be set.')
     }
-
     if (!tweet.media) {
       return new Error('Tweet must have an image.')
     }
